@@ -1,0 +1,7 @@
+spring.datasource.url = jdbc:sqlserver://msqldemo.database.windows.net:1433;database=demo;encrypt=true;trustServerCertificate=false;hostNameInCertificate=*.database.windows.net;loginTimeout=30
+spring.datasource.username = nhattan
+spring.datasource.password = nguyentan156*
+spring.datasource.initialization-mode=always
+spring.jpa.properties.hibernate.dialect = org.hibernate.dialect.SQLServer2008Dialect
+spring.jpa.hibernate.ddl-auto = update
+spring.jpa.show-sql=true
